@@ -1,0 +1,6 @@
+time: '20251006_030611'
+ear_open_median: 0.26767
+ear_closed_median: 0.05013
+alpha: 0.4
+threshold: 0.13714
+note: EAR threshold hasil kalibrasi per-user
