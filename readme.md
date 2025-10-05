@@ -1,10 +1,10 @@
-# 👁️ Deteksi Kelelahan Mata dengan Haar Cascade & Eye Aspect Ratio (EAR)
+#  Deteksi Kelelahan Mata dengan Haar Cascade & Eye Aspect Ratio (EAR)
 
 Sistem ini mendeteksi **kelelahan mata (eye fatigue/drowsiness)** saat menggunakan komputer, menggunakan algoritma **Eye Aspect Ratio (EAR)** berbasis **MediaPipe FaceMesh**, dengan dukungan **Haar Cascade** untuk deteksi wajah dan **notifikasi suara otomatis (TTS)** ketika kondisi lelah terdeteksi.
 
 ---
 
-## 🚀 Fitur Utama
+## Fitur Utama
 - 🧠 **Deteksi mata terbuka/tertutup secara real-time**
 - 🔎 **Perhitungan EAR (Eye Aspect Ratio)** per frame
 - ⏱️ **PERCLOS (Percentage of Eye Closure)** untuk indikator kelelahan
@@ -16,7 +16,7 @@ Sistem ini mendeteksi **kelelahan mata (eye fatigue/drowsiness)** saat menggunak
 
 ---
 
-## 🧩 Teknologi yang Digunakan
+## Teknologi yang Digunakan
 - **Python 3.10+**
 - [OpenCV](https://opencv.org/) — deteksi wajah via Haar Cascade
 - [MediaPipe FaceMesh](https://developers.google.com/mediapipe) — landmark mata presisi tinggi
@@ -33,3 +33,4 @@ git clone https://github.com/KarboLennon/eye-fatigue-detection.git
 cd eye-fatigue-detection
 
 pip install -r requirements.txt
+
